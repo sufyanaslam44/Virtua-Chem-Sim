@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c0449d6c2c7fdb442853931a378874c7
+  - enabled: 1
+    path: Assets/Scenes/Demo.unity
+    guid: c29a7c2a74ae71f408f97becd2c212b8
+  - enabled: 1
+    path: Assets/Scenes/Titration.unity
+    guid: a31178fa5a561d64c82760f0c7ea172f
+  - enabled: 1
+    path: Assets/Scenes/ExperimentList.unity
+    guid: e4f54137411eb614fa3f3bc7c6d9a648
+  - enabled: 1
+    path: Assets/Scenes/Litmus.unity
+    guid: bad46ffbfa4c84a44add98f0fb38e94d
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 4a8f0464c0516c54ab7516016e213f51, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 2cee2782b168c8c4799a507e23fbe90a, type: 2}

@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e605c85cc9cd8746a28990e40e1e8fd, type: 3}
+  m_Name: TitrationQuiz
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What is the purpose of an indicator in an acid-base titration?
+    replies:
+    - a) To neutralize the acid or base
+    - b) To show the end point of the titration
+    - c) To increase the reaction rate
+    - d) To change the pH of the solution
+    correctReplyIndex: 1
+    explanations:
+    - 'Correct Answer: b) To show the end point of the titration'
+    - a) Indicators do not neutralize substances; they signal pH changes.
+    - c) Indicators do not affect the reaction rate; they only indicate pH changes.
+    - d) Indicators do not change the pH; they signal when the pH changes.
+  - questionText: Which of the following indicators is commonly used in strong acid-strong
+      base titrations?
+    replies:
+    - a) Phenolphthalein
+    - b) Methyl orange
+    - c) Bromothymol blue
+    - d) Thymol blue
+    correctReplyIndex: 0
+    explanations:
+    - 'Correct Answer: a) Phenolphthalein'
+    - b) Methyl orange is better for weak base-strong acid titrations.
+    - c) Bromothymol blue can be used but is less common than phenolphthalein for
+      this titration.
+    - 'd) Thymol blue is less commonly used than phenolphthalein for strong acid-strong
+      base titrations. '
+  - questionText: Which piece of equipment is primarily used to measure the volume
+      of titrant added during a titration?
+    replies:
+    - a) Beaker
+    - b) Burette
+    - c) Pipette
+    - d) Graduated cylinder
+    correctReplyIndex: 1
+    explanations:
+    - 'Correct Answer: b) Burette'
+    - 'a) A beaker is used to hold solutions, not measure titrant volume. '
+    - c) A pipette is used for precise measurement of small volumes, not for titration.
+    - d) A graduated cylinder is less precise than a burette for titrations.
+  - questionText: If 25.0 mL of 0.100 M NaOH is required to neutralize 50.0 mL of
+      HCl, what is the molarity of the HCl solution?
+    replies:
+    - a) 0.100 M
+    - b) 0.050 M
+    - c) 0.200 M
+    - d) 0.025 M
+    correctReplyIndex: 1
+    explanations:
+    - 'Correct Answer: b) 0.050 M'
+    - Calculate by using concentration formula 'M1V1 = M2V2'
+  - questionText: What is the pH of a solution at the equivalence point in the titration
+      of a strong acid with a strong base?
+    replies:
+    - a) 4
+    - b) 7
+    - c) 10
+    - d) It depends on the specific acid and base.
+    correctReplyIndex: 1
+    explanations:
+    - 'Correct Answer: b) 7 '
+    - 'a) Incorrect: Only true if the resulting solution is acidic.'
+    - 'c) Incorrect: Only true if the resulting solution is basic.'
+    - 'd) Incorrect: For strong acid-strong base titrations, pH is always 7 at equivalence.'
+  - questionText: What is the endpoint of a titration?
+    replies:
+    - a) When the pH is neutral
+    - b) When the indicator changes color
+    - c) When the acid is completely neutralized
+    - d) When the solution is saturated
+    correctReplyIndex: 1
+    explanations:
+    - 'Correct Answer: b) When the indicator changes color'
+    - 'a) Incorrect: The endpoint is indicated by color change, not necessarily neutral
+      pH.'
+    - 'c) Incorrect: Complete neutralization is related but not the exact endpoint. '
+    - 'd) Incorrect: Saturation is not relevant to titration endpoints. '
+  - questionText: The Concentration of NaOH is 0.5 M if 20 ml is needed to titrate
+      35 mL of acid, what is the concentration of the acid?
+    replies:
+    - a) 0.875 M of acid
+    - b) 0.0029 M of the acid
+    - c) 0.29 M of the acid
+    - d) 0.00875 M of acid
+    correctReplyIndex: 2
+    explanations:
+    - 'Since the name of the acid (and the equation) is not given, you must assume
+      that it is a 1:1 ratio. Use equation: volume of acid x molarity of acid = volume
+      of base x molarity of base (when the ratio is 1:1).'
+  - questionText: "Acid + Base \u208B--> "
+    replies:
+    - a) salt + hydrogen
+    - b) salt + water
+    - c) salt + carbon dioxide + water
+    - d) salt
+    correctReplyIndex: 1
+    explanations:
+    - a) Hydrogen forms when acids react with metals, not bases.
+    - b) Neutralization produces salt and water.
+    - c) This occurs when acids react with carbonates, not bases.
+    - d) Neutralization produces both salt and water, not just salt.
+  - questionText: What is the long graduated piece of equipment called?
+    replies:
+    - a) Pipette
+    - b) Tube
+    - c) Burette
+    - d) Measuring Cylinder
+    correctReplyIndex: 2
+    explanations:
+    - 'a) Incorrect: A pipette is used to transfer small, precise volumes of liquid
+      but is not graduated for continuous measurement along its length.'
+    - 'b) Incorrect: A "tube" is a general term and not specific to measuring equipment.'
+    - 'c) Correct: A burette is a long graduated piece of equipment used to deliver
+      precise volumes of liquid, often in titrations.'
+    - 'd) Incorrect: A measuring cylinder is graduated but is short and used for
+      approximate volume measurements.'
+  - questionText: When is there a big change in pH during a strong acid-strong base
+      titration?
+    replies:
+    - a) When pH is equal to pKa
+    - b) When the midpoint is reached
+    - c) When the volume of acid is stoichiometrically equal to the volume of base
+    - d) When the number of moles of acid is stoichiometrically equal to the number
+      of moles of base
+    correctReplyIndex: 3
+    explanations:
+    - 'Titration of a strong acid with a strong base: pH changes abruptly at the
+      equivalence point At the equivalence point: stoichiometrically equivalent amounts
+      of acid and base have reacted'
+  - questionText: How many equivalence points do you expect for the titration of
+      H3PO4 with NaOH?
+    replies:
+    - a) 1
+    - b) 2
+    - c) 3
+    - d) 4
+    correctReplyIndex: 2
+    explanations:
+    - 'It is a polyprotic acid: it can give up to 3 acidic proton:'
+  - questionText: Why is a burette used in acid-base titration?
+    replies:
+    - a) To mix the acid and base evenly
+    - b) To add a known volume of solution dropwise
+    - c) To measure the pH of the solution
+    - d) To store the titrant during the experiment
+    correctReplyIndex: 1
+    explanations:
+    - 'a) Incorrect: The mixing occurs in the flask, not the burette.'
+    - 'b) Correct: The burette is designed to deliver the titrant dropwise for precision.'
+    - 'c) Incorrect: pH is measured using a pH meter or indicator, not a burette.'
+    - 'd) Incorrect: While the burette holds the titrant, its purpose is precise
+      delivery, not storage.'
+  - questionText: What is the equivalence point in a titration?
+    replies:
+    - a) When the solution changes color
+    - b) When the acid completely neutralizes the base
+    - c) When the pH is 7
+    - d) When the titrant stops flowing
+    correctReplyIndex: 1
+    explanations:
+    - 'a) Incorrect: Color change indicates the endpoint, not necessarily equivalence.'
+    - 'b) Correct: Equivalence point is when stoichiometric amounts of acid and base
+      react.'
+    - 'c) Incorrect: pH is not always 7 at equivalence, especially for weak acid/base
+      pairs.'
+    - 'd) Incorrect: This describes stopping titration, not equivalence.'
+  - questionText: Why is phenolphthalein commonly used in acid-base titration?
+    replies:
+    - a) It works at a wide pH range
+    - b) It has a sharp color change near the equivalence point
+    - c) It is soluble in water
+    - d) It neutralizes the solution
+    correctReplyIndex: 1
+    explanations:
+    - "a) Incorrect: Phenolphthalein has a limited pH range (8.3\u201310)."
+    - 'b) Correct: Its sharp color change makes detecting the endpoint easier.'
+    - 'c) Incorrect: While it dissolves, that is not its primary purpose.'
+    - 'd) Incorrect: Indicators do not participate in neutralization.'
+  - questionText: What is the role of a pipette in acid-base titration?
+    replies:
+    - a) To measure the volume of titrant
+    - b) To deliver an accurate volume of analyte
+    - c) To stir the solution
+    - d) To hold the indicator
+    correctReplyIndex: 1
+    explanations:
+    - 'a) Incorrect: The burette measures the titrant, not the pipette.'
+    - 'b) Correct: Pipettes deliver a precise, known volume of the analyte.'
+    - 'c) Incorrect: Stirring is done manually or by a magnetic stirrer.'
+    - 'd) Incorrect: The indicator is added separately, not in the pipette.'
+  - questionText: Why should you swirl the flask during titration?
+    replies:
+    - a) To speed up the reaction
+    - b) To mix the acid and base thoroughly
+    - c) To prevent spillage
+    - d) To make the indicator work
+    correctReplyIndex: 1
+    explanations:
+    - 'a) Incorrect: The reaction speed is not significantly affected by swirling.'
+    - 'b) Correct: Swirling ensures even mixing for accurate results.'
+    - 'c) Incorrect: Swirling does not prevent spillage; careful handling does.'
+    - 'd) Incorrect: Indicators do not depend on swirling to work.'
+  - questionText: What does a sharp color change in the solution during titration
+      indicate?
+    replies:
+    - a) Completion of neutralization (Correct)
+    - b) Change in pH to 1
+    - c) Indicator exhaustion
+    - d) The end of the reaction
+    correctReplyIndex: 0
+    explanations:
+    - 'a) Correct: A sharp color change signals that the reaction is complete.'
+    - 'b) Incorrect: A pH of 1 would indicate a strong acid, not the endpoint.'
+    - 'c) Incorrect: Indicators are not "used up" during titration.'
+    - 'd) Incorrect: This option is vague and not entirely accurate. '
+  - questionText: What determines the choice of indicator in a titration?
+    replies:
+    - a) The solubility of the indicator
+    - b) The color of the solution
+    - c) The volume of the acid
+    - d) The strength of the acid and base
+    correctReplyIndex: 3
+    explanations:
+    - 'a) Incorrect: Solubility is not a deciding factor.'
+    - 'b) Incorrect: Solution color does not influence indicator choice.'
+    - 'c) Incorrect: Volume does not determine indicator selection.'
+    - 'd) Correct: Indicator pH range must match the reaction equivalence point.'
+  - questionText: Why is it important to avoid over-titrating?
+    replies:
+    - a) To save titrant
+    - 'b) To protect the indicator '
+    - 'c) To prevent overshooting the endpoint '
+    - d) To avoid splashing the solution
+    correctReplyIndex: 2
+    explanations:
+    - 'a) Incorrect: While saving titrant is practical, accuracy is the main concern.'
+    - 'b) Incorrect: Indicators are not damaged by over-titration.'
+    - 'c) Correct: Overshooting causes inaccurate results by passing the endpoint.'
+    - 'd) Incorrect: Splashes are unrelated to over-titrating.'
+  - questionText: Why is distilled water used to rinse the burette and pipette before
+      titration?
+    replies:
+    - a) To clean the equipment from impurities
+    - b) To neutralize the acid and base in the equipment
+    - c) To help the indicator mix better
+    - d) To prevent excess reaction during titration
+    correctReplyIndex: 0
+    explanations:
+    - 'a) Correct: Distilled water ensures that no contaminants interfere with the
+      titration.'
+    - 'b) Incorrect: Neutralization is not the goal; cleanliness is.'
+    - 'c) Incorrect: Indicators are mixed in the flask, not the burette or pipette.'
+    - 'd) Incorrect: Preventing excess reaction is not related to rinsing.'

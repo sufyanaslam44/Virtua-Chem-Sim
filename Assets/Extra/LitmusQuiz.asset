@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e605c85cc9cd8746a28990e40e1e8fd, type: 3}
+  m_Name: LitmusQuiz
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: What color does blue litmus paper turn when dipped in an acidic
+      solution?
+    replies:
+    - a) Red
+    - b) Blue
+    - c) Green
+    - d) Yellow
+    correctReplyIndex: 0
+    explanations:
+    - "Correct Answer: a) Blue litmus paper turns red in an acidic solution because
+      acids increase the concentration of hydrogen ions (H\u207A), which cause the
+      litmus dye to change color."
+    - b) The paper remains blue if dipped in a neutral or basic (alkaline) solution,
+      not in an acidic one.
+    - c) Litmus paper does not turn green; this might be confused with other pH indicators.
+    - d) Yellow is not associated with litmus paper; this is likely confused with
+      pH paper.
+  - questionText: What happens to red litmus paper when it is placed in a basic (alkaline)
+      solution?
+    replies:
+    - a) It stays red
+    - b) It turns blue
+    - c) It turns yellow
+    - d) It becomes colorless
+    correctReplyIndex: 1
+    explanations:
+    - "a) Red litmus paper turns blue in a basic solution, so it doesn\u2019t stay
+      red."
+    - "b) Correct: Basic solutions cause red litmus paper to turn blue due to the
+      presence of hydroxide ions (OH\u207B)."
+    - c) This is a confusion with pH paper, not litmus paper.
+    - d) Litmus paper does not turn colorless in a basic solution; it turns blue.
+  - questionText: Which of the following substances will turn blue litmus paper red?
+    replies:
+    - a) Vinegar
+    - b) Baking soda solution
+    - c) Distilled water
+    - d) Sodium chloride solution
+    correctReplyIndex: 0
+    explanations:
+    - a)  Correct. Vinegar is acidic (acetic acid), and it turns blue litmus paper
+      red.
+    - b) Baking soda is basic, so it would not turn blue litmus paper red.
+    - c) Distilled water is neutral, so it does not change the color of blue litmus
+      paper.
+    - 'd) Sodium chloride is a neutral salt, so it does not affect blue litmus paper. '
+  - questionText: If a solution does not change the color of either red or blue litmus
+      paper, what is the pH of the solution likely to be?
+    replies:
+    - a) Less than 7
+    - b) Exactly 7
+    - c) More than 7
+    - d) It cannot be determined
+    correctReplyIndex: 1
+    explanations:
+    - a) If the solution were acidic, it would turn blue litmus paper red.
+    - 'b) Correct: A solution with a pH of exactly 7 is neutral, meaning it does
+      not change the color of either red or blue litmus paper.'
+    - c) If the solution were basic, it would turn red litmus paper blue.
+    - d) The lack of color change indicates neutrality, which suggests a pH of exactly
+      7.
+  - questionText: What does it indicate if blue litmus paper remains blue after being
+      dipped in a liquid?
+    replies:
+    - a) The liquid is acidic
+    - b) The liquid is neutral
+    - c) The liquid is basic
+    - 'd) The liquid is either neutral or basic '
+    correctReplyIndex: 3
+    explanations:
+    - a) An acidic liquid would turn blue litmus paper red.
+    - "b) While a neutral liquid would not change the color, this answer doesn\u2019t
+      account for basic solutions."
+    - c) Basic solutions also do not change the color of blue litmus paper, but this
+      answer does not consider neutrality.
+    - 'd) Correct: Both neutral and basic liquids would leave blue litmus paper unchanged.'
+  - questionText: What are the primary raw materials used to make litmus paper?
+    replies:
+    - a) Wood cellulose
+    - b) Lichens
+    - c) Adjunct compounds
+    - ' d) All of the above'
+    correctReplyIndex: 3
+    explanations:
+    - The primary raw materials used to make litmus paper are wood cellulose, lichens,
+      and adjunct compounds. Wood cellulose is derived from trees and is used as
+      a base material for the paper. Lichens, specifically Roccella tinctoria, are
+      used to extract a dye called litmus, which gives the paper its characteristic
+      color-changing properties. Adjunct compounds may be added to enhance the durability
+      or performance of the litmus paper. Therefore, all of the above options are
+      correct as they represent the primary raw materials used in the production
+      of litmus paper.
+  - questionText: Who used litmus for the first time?
+    replies:
+    - a) Arnaldus de Villa Nova
+    - b) John Dalton
+    - c) Albert Einstein
+    - d) Rosalind Franklin
+    correctReplyIndex: 0
+    explanations:
+    - Arnaldus de Villa Nova is credited with being the first person to use litmus.
+      Litmus is a natural dye obtained from lichens and is commonly used as an indicator
+      in chemistry to determine whether a substance is acidic or basic. Arnaldus
+      de Villa Nova, a 13th-century alchemist and physician, is believed to have
+      discovered the properties of litmus and used it in his experiments and observations.
+      His contribution to the field of chemistry and the development of indicators
+      like litmus paved the way for further advancements in the study of acids and
+      bases.
+  - questionText: Litmus dye is obtained from
+    replies:
+    - a) Lichens
+    - b) Beetroot
+    - c) Blueberries
+    - d) All of the above
+    correctReplyIndex: 0
+    explanations:
+    - Litmus dye is obtained from lichens. Lichens are composite organisms that consist
+      of a symbiotic relationship between a fungus and an alga or cyanobacterium.
+      They are known to produce various secondary metabolites, including dyes. Litmus
+      dye is one such dye that is extracted from certain species of lichens. It is
+      commonly used as a pH indicator in laboratories and is red under acidic conditions
+      and blue under alkaline conditions. Therefore, the correct answer is lichens.
+  - questionText: ' What is purple litmus paper considered?'
+    replies:
+    - a) Acidic
+    - b) Basic
+    - c) Neutral
+    - d) None of the above
+    correctReplyIndex: 2
+    explanations:
+    - Purple litmus paper indicates the solution is neutral or close to neutral.
+      Litmus paper is a common indicator used in chemistry to determine the pH level
+      of a solution. It turns blue in the presence of bases and red in the presence
+      of acids. However, purple litmus paper does not show any color change, indicating
+      that it is not affected by either acidic or basic substances, hence considered
+      neutral.
+  - questionText: What color is litmus paper initially?
+    replies:
+    - ' a) Red'
+    - b) Blue
+    - c) Green
+    - d) Both A and B
+    correctReplyIndex: 3
+    explanations:
+    - Litmus paper is initially red in color. However, when it comes into contact
+      with an acidic solution, it turns red. On the other hand, when it comes into
+      contact with a basic solution, it turns blue. Therefore, the correct answer
+      is "Both A and B" because litmus paper can be initially red or blue depending
+      on the solution it is exposed to.
+  - questionText: '  What are the limitations of a litmus paper?'
+    replies:
+    - a) It does not tell how strongly acidic or basic the solution is.
+    - b) It does not provide a numerical pH value.
+    - c) It does not have any limitations.
+    - d) Both A and B
+    correctReplyIndex: 3
+    explanations:
+    - The correct answer is "Both A and B". This means that the limitations of a
+      litmus paper are that it does not tell how strongly acidic or basic a solution
+      is and it does not provide a numerical pH value.
+  - questionText: What is an alternative to the litmus test?
+    replies:
+    - a) Red cabbage juice
+    - b) Papaya juice
+    - c) Soyabean oil
+    - d) All of the above
+    correctReplyIndex: 0
+    explanations:
+    - An alternative to the litmus test is red cabbage juice. Red cabbage juice can
+      be used as a natural pH indicator, just like litmus paper. It changes color
+      depending on the acidity or alkalinity of a solution. This makes it a suitable
+      substitute for litmus paper in certain experiments or tests to determine the
+      pH level of a substance.
+  - questionText: What is yellow litmus paper commonly used for?
+    replies:
+    - a) To determine whether a substance is chemically strong or weak.
+    - b) To determine whether a substance is acidic or basic.
+    - c) To determine whether a substance is an element or a compound.
+    - d) All of the above
+    correctReplyIndex: 1
+    explanations:
+    - Yellow litmus paper is commonly used to determine whether a substance is acidic
+      or basic. Litmus paper is a pH indicator that changes color in the presence
+      of an acid or a base. When yellow litmus paper is exposed to an acidic substance,
+      it remains yellow or turns red. On the other hand, when it comes into contact
+      with a basic substance, it turns blue. Therefore, yellow litmus paper can be
+      used as a simple and quick method to determine the acidity or basicity of a
+      substance.
+  - questionText: 'Vinegar, fruit juice, and cola are examples of:'
+    replies:
+    - a) strong acids
+    - b) strong bases
+    - c) strong bases
+    - d) weak acids
+    correctReplyIndex: 3
+    explanations:
+    - a) Incorrect. Strong acids, like HCl, fully ionize in water and are much more
+      corrosive than these substances.
+    - b) Incorrect. Strong bases, like NaOH, are alkaline and have high pH values,
+      unlike acidic substances.
+    - c) Incorrect. Weak bases, such as ammonia, are slightly alkaline, not acidic.
+    - d) Correct. Vinegar, fruit juice, and cola contain weak acids like acetic,
+      citric, and carbonic acids, which only partially ionize in water.
+  - questionText: What is the pH value range for acids?
+    replies:
+    - a) 0 - 14
+    - b) 0 - 6.9
+    - c) 7.1 - 14
+    - d) 0
+    correctReplyIndex: 1
+    explanations:
+    - a) Incorrect. This is the full pH scale, not the range for acids.
+    - b) Correct. Acids have a pH below 7, ranging from 0 (strong acids) to 6.9 (weak
+      acids).
+    - c) Incorrect. This range is for bases, not acids.
+    - d) Incorrect. While 0 is part of the acid range, it doesn't represent the entire
+      range.
+  - questionText: What happens when blue litmus paper is exposed to sulfuric acid?
+    replies:
+    - a) It turns blue
+    - b) It turns red
+    - c) It turns green
+    - d) It remains unchanged
+    correctReplyIndex: 1
+    explanations:
+    - a) Incorrect. Blue litmus turning red is a characteristic reaction of acidic
+      solutions.
+    - b) Correct. Sulfuric acid is a strong acid, which turns blue litmus red.
+    - 'c) Incorrect. Green is not a result of any typical litmus test. '
+    - d) Incorrect. Blue litmus paper changes color in acids, so it will not remain
+      unchanged.
+  - questionText: Why does litmus paper change color when exposed to acidic or basic
+      solutions?
+    replies:
+    - a) It reacts chemically with the solution.
+    - b) It absorbs ions from the solution.
+    - "c) Its pH-sensitive dye reacts with H\u207A or OH\u207B ions."
+    - d) Its surface oxidizes in the presence of the solution.
+    correctReplyIndex: 2
+    explanations:
+    - "a) Incorrect. Litmus paper does not undergo a chemical reaction; it only detects
+      the presence of H\u207A or OH\u207B ions."
+    - b) Incorrect. Litmus paper does not absorb ions; the reaction occurs on its
+      surface.
+    - "c) Correct. The pH-sensitive dye in litmus paper interacts with H\u207A (acidic)
+      or OH\u207B (basic) ions, causing a color change. "
+    - "d) Incorrect. Oxidation does not play a role in the litmus paper\u2019s color
+      change. "
+  - questionText: Which of the following is a limitation of litmus paper in determining
+      the nature of a solution?
+    replies:
+    - a) It can only detect neutral solutions.
+    - b) It cannot indicate the strength of the acid or base.
+    - 'c) It reacts only with solids. '
+    - d) It turns color for non-aqueous solutions.
+    correctReplyIndex: 1
+    explanations:
+    - a) Incorrect. Litmus paper detects both acidic and basic solutions but does
+      not work only for neutral ones.
+    - b) Correct. Litmus paper can identify whether a solution is acidic or basic
+      but cannot determine its exact pH or strength.
+    - c) Incorrect. Litmus paper reacts with liquids or aqueous solutions, not just
+      solids.
+    - d) Incorrect. Litmus paper typically does not work for non-aqueous solutions.
+  - questionText: "If a litmus paper test is inconclusive for a solution, which method
+      should be used next to determine the solution\u2019s pH?"
+    replies:
+    - a) Smelling the solution.
+    - b) Using a pH indicator strip.
+    - c) Heating the solution.
+    - d) Evaporating the solution.
+    correctReplyIndex: 1
+    explanations:
+    - a) Incorrect. Smelling a solution is unsafe and unreliable for determining
+      pH.
+    - 'b) Correct. A pH indicator strip gives a precise pH value and is more informative
+      than litmus paper. '
+    - "c) Incorrect. Heating does not help identify the pH and may change the solution\u2019s
+      properties."
+    - "d) Incorrect. Evaporation does not reveal the solution\u2019s acidity or basicity."
+  - questionText: Why does litmus paper fail to identify certain weak acids or bases?
+    replies:
+    - a) Their pH is too close to neutral for the dye to react.
+    - b) They do not dissolve in water.
+    - c) They react with the paper but do not change its color.
+    - d) They contain impurities that interfere with the test.
+    correctReplyIndex: 0
+    explanations:
+    - "a) Correct. Weak acids or bases near pH 7 may not produce enough H\u207A or
+      OH\u207B ions to cause a visible color change."
+    - b) Incorrect. If they dissolve in water, they can potentially cause a reaction.
+    - c) Incorrect. If a reaction occurs, it should lead to a color change unless
+      near neutral.
+    - d) Incorrect. Impurities might interfere, but this is not the primary reason
+      for litmus paper failure
