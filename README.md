@@ -18,4 +18,8 @@ git clone https://github.com/sufyanaslam44/Virtua-Chem-Sim.git
 ## Contact
 If you have any questions, feel free to contact me at [sufyanaslam1644@gmail.com].
 
+##Google Play Store
+Please visit the following link to donwload the Virtua Chem Sim app from the Google Play Store
+[https://play.google.com/store/apps/details?id=com.iTechUstad.VirtuaChemSim&pli=1].
+
 ---
